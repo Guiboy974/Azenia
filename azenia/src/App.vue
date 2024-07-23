@@ -1,11 +1,13 @@
 <script setup>
-import header from './components/header.vue'
-
+// eslint-disable-next-line no-unused-vars
+import Header from '@/components/header.vue'
 </script>
-
 <template>
   <header>
-   
+    <div id="app">
+    <Header/>
+    <router-view></router-view>
+  </div>
   </header>
 
   <main>
