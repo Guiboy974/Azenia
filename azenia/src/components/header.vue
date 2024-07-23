@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import Navbar from '@/components/navbar.vue'
+import Navbar from './components/navbar.vue'
 
 export default {
   // eslint-disable-next-line vue/multi-word-component-names, vue/no-reserved-component-names

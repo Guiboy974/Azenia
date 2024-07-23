@@ -30,6 +30,7 @@
   
   <script>
   export default {
+
     // eslint-disable-next-line vue/multi-word-component-names
     name: 'Navbar',
     data() {
@@ -41,9 +42,6 @@
       toggleMenu() {
         this.isMenuActive = !this.isMenuActive
       },
-      closeMenu() {
-      this.isMenuActive = false
-    }
     }
   }
   </script>
@@ -74,16 +72,16 @@
     color: #5f3500;
   }
 
-  .navbar-menu li :hover {
+  /* .navbar-menu li :hover {
     color: #8c4e00;
     font-size: 1rem
-  }
+  } */
   
   .navbar-toggle {
     display: none;
   }
   
-  @media (max-width: 1024px) {
+  @media (max-width: 1020px) {
     .navbar-menu {
       display: none;
       flex-direction: column;
