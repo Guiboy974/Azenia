@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import Navbar from './components/navbar.vue'
+import Navbar from '../components/navbar.vue'
 
 export default {
   // eslint-disable-next-line vue/multi-word-component-names, vue/no-reserved-component-names
@@ -32,34 +32,41 @@ export default {
 </script>
 
 <style scoped>
-
 .header {
-  top: 0px;
+  box-sizing: border-box;
+}
+.header, .nav-contact {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: auto;
+  position: relative;
 }
 
 .nav-contact {
-  display: flex;
-  width: 100%;
-  height: 40px;
-  background-color: rgba(53, 182, 38, 0.989);
-  align-items: center;
+  height: 35px;
+  background-color: rgb(135, 220, 105);
   justify-content: space-between;
+  align-items: center;
 }
 
 svg, img {
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
 }
 
 .nav-lien {
   display: flex;
   flex-direction: row;
   justify-content: end;
+  padding-right: 30px;
 }
 
 a, p {
   text-decoration: none;
-  color: black;
+  color: rgb(83, 34, 0);
   font-weight: 500;
 }
 
