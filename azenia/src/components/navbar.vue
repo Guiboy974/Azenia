@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar">
       <div class="navbar-brand">
-        <img src="@/assets/logo-azenia.png" alt="Logo Institut de massage et bien-être" class="logo">
+        <router-link to="/"><img src="@/assets/logo-azenia.png" alt="Logo Institut de massage et bien-être" class="logo"></router-link>
       </div>
       <button class="navbar-toggle" @click="toggleMenu">
         <span class="bar"></span>

@@ -50,6 +50,7 @@ export default {
   background-color: rgb(135, 220, 105);
   justify-content: space-between;
   align-items: center;
+  padding-left: 100px;
 }
 
 svg, img {
@@ -61,7 +62,8 @@ svg, img {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  padding-right: 30px;
+  padding-right: 200px;
+
 }
 
 a, p {
@@ -73,13 +75,6 @@ a, p {
 ul {
   list-style-type: none;
   padding: 10px;
-}
-
-
-@media (min-width: 1024px) {
-  .nav-contact {
-    border-radius: 10px;
-  }
 }
 
 @media (max-width: 900px) {
